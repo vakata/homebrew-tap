@@ -1,29 +1,29 @@
 class Dirdiffz < Formula
   desc "Terminal directory diff tool"
   homepage "https://github.com/vakata/dirdiffz"
-  version "0.1.4"
+  version "0.1.5"
 
   on_macos do
     on_arm do
-      url "https://github.com/vakata/dirdiffz/releases/download/0.1.4/dirdiffz-macos-aarch64.tar.gz"
-      sha256 "83c26cfff4762a6c5daf899a03a9de2faed6fab06fb1d6fa716d7490d853056f"
+      url "https://github.com/vakata/dirdiffz/releases/download/0.1.5/dirdiffz-macos-aarch64.tar.gz"
+      sha256 "d8186a8da165afd6aefa4daa1f75208c3dc75b323dbc4a508ed98923391d5e63"
     end
 
     on_intel do
-      url "https://github.com/vakata/dirdiffz/releases/download/0.1.4/dirdiffz-macos-x86_64.tar.gz"
-      sha256 "561e127cc965b49659c6c13b7487812f642576053d1ffa505f9ae47b4d1bd8ca"
+      url "https://github.com/vakata/dirdiffz/releases/download/0.1.5/dirdiffz-macos-x86_64.tar.gz"
+      sha256 "f59edc720599983bf129308ef75387ce333d27b7fc28b854fb4f24160a41cb92"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/vakata/dirdiffz/releases/download/0.1.4/dirdiffz-linux-aarch64.tar.gz"
-      sha256 "42ef8ea552cf002327b527c69709e1d198f89dcb2190cc1a371020942d287b88"
+      url "https://github.com/vakata/dirdiffz/releases/download/0.1.5/dirdiffz-linux-aarch64.tar.gz"
+      sha256 "979e14450ac398bb90ae004ae7cc1af08a64409c8c562d99a0ca3e8b0f0f433c"
     end
 
     on_intel do
-      url "https://github.com/vakata/dirdiffz/releases/download/0.1.4/dirdiffz-linux-x86_64.tar.gz"
-      sha256 "6f7a872c0864a2287dfa04d41f88283d4fe62d9b9ff95b7546ee49bf444f48b6"
+      url "https://github.com/vakata/dirdiffz/releases/download/0.1.5/dirdiffz-linux-x86_64.tar.gz"
+      sha256 "9ceb6fe576160a7c33d73c57a2ab3ebf5c2493d1d9be520efe5952869b39da70"
     end
   end
 
