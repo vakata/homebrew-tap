@@ -1,18 +1,18 @@
 class Signer < Formula
   desc "Local HTTP service for signing data with PKCS#11 certificates"
   homepage "https://github.com/vakata/zig-signer"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/vakata/zig-signer/releases/download/0.1.1/signer-macos-aarch64.tar.gz"
-      sha256 "49e96cc0c23af9a89b7e88f363f6b00996991e7f73ab14c963bc4b5a03ae21cb"
+      url "https://github.com/vakata/zig-signer/releases/download/0.1.2/signer-macos-aarch64.tar.gz"
+      sha256 "fddd146472168f6dccca60bf28e119457c6195452234cda5e653256f25d211c8"
     end
 
     on_intel do
-      url "https://github.com/vakata/zig-signer/releases/download/0.1.1/signer-macos-x86_64.tar.gz"
-      sha256 "7d56bf25ea1d98cf474bf63a8c5d0479bd5b7dee1749e731866d57bc2c0d3f00"
+      url "https://github.com/vakata/zig-signer/releases/download/0.1.2/signer-macos-x86_64.tar.gz"
+      sha256 "44e7d4c3df474c2c1b45e88a8a9ff390e55089a5101240c11731a53901fd2c09"
     end
   end
 
@@ -20,13 +20,13 @@ class Signer < Formula
     depends_on "gtk+3"
 
     on_arm do
-      url "https://github.com/vakata/zig-signer/releases/download/0.1.1/signer-linux-aarch64.tar.gz"
-      sha256 "2a8d1abcd8fd9afacebe7383e6f50f21528faddedeb58786abedfd28ce39b0a8"
+      url "https://github.com/vakata/zig-signer/releases/download/0.1.2/signer-linux-aarch64.tar.gz"
+      sha256 "9070630bc5dccc098a4bf5fd196a5d775daca2d08c96c72c365c63209814aff2"
     end
 
     on_intel do
-      url "https://github.com/vakata/zig-signer/releases/download/0.1.1/signer-linux-x86_64.tar.gz"
-      sha256 "0b0ec6b6551e5eb4a682b94d242e9fe593ff7e17cd87ee11f2505d24ea78912e"
+      url "https://github.com/vakata/zig-signer/releases/download/0.1.2/signer-linux-x86_64.tar.gz"
+      sha256 "18dc0d79d70f48869c7585e5af51d8b45eaf71699804236cb8191535efa1b51e"
     end
   end
 
